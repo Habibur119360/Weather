@@ -1,0 +1,11 @@
+{
+  "name": "weather-aqi-app",
+  "version": "1.0.0",
+  "description": "Full-Stack Real-Time Weather, AQI & Humidity Monitoring Web Application",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
